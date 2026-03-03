@@ -14,3 +14,10 @@ void awal(){
 float luas (float j){
     return phi * j * j; 
 }
+void akhir (){
+    cout << "Hasil Luas untuk lingkaran dengan jari-jari " << luas(jariJari) << endl;
+}
+int main(){
+    awal();
+    akhir();
+}
