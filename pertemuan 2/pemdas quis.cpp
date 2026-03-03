@@ -10,3 +10,7 @@ void awal(){
     cout << "Masukkan jari-jari lingkaran: ";
     cin >> jariJari;
 }
+//fungsi preoses
+float luas (float j){
+    return phi * j * j; 
+}
