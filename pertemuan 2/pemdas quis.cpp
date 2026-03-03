@@ -4,3 +4,9 @@ using namespace std;
 //deklarasi variable
 float jariJari;
 float phi = 3.14159;
+
+//prosedur
+void awal(){
+    cout << "Masukkan jari-jari lingkaran: ";
+    cin >> jariJari;
+}
